@@ -1,0 +1,70 @@
+.startupland-header {
+    background-color: #FFFCF7;
+    padding-top: 10px;
+    padding-left: 9vw;
+}
+
+.startupland-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0f2137;
+    padding-left: 6px;
+}
+
+@media (min-width: 992px) {
+    .startupland-navbar-nav-left {
+        padding-left: 2vw;
+    }
+
+    .startupland-navbar-nav-right {
+        padding-right: 9vw;
+    }
+
+    .startupland-nav-item {
+        padding-left: 16px;
+    }
+    
+    .startupland-image-item {
+        padding-left: 10px;
+    }
+
+    .startupland-image-link {
+        padding-top: 4px;
+    }
+}
+
+.startupland-nav-link {
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    color: #02073e;;
+}
+
+.startupland-nav-login {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.startupland-get-started {
+    background-color: #fff0d7;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    color: #e5a740;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.startupland-get-started:hover {
+    background-color: #fff0d7;
+    color: #e5a740;
+    border-color: #e5a740;
+}
+
+.startupland-get-started:active {
+    background-color: #fff0d7 !important;
+    color: #e5a740 !important;
+    border-color: orangered !important;
+}
