@@ -37,7 +37,11 @@
 .startupland-nav-link {
     font-family: "DM Sans", sans-serif;
     font-size: 14px;
-    color: #02073e;;
+    color: #02073e;
+}
+
+.startupland-nav-link:hover {
+    color: #646687;
 }
 
 .startupland-nav-login {
@@ -66,5 +70,5 @@
 .startupland-get-started:active {
     background-color: #fff0d7 !important;
     color: #e5a740 !important;
-    border-color: orangered !important;
+    border-color: #e5a740;
 }
