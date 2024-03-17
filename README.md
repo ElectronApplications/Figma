@@ -1,2 +1,2 @@
-# Верстка по фигме
-Шаблон: [https://www.figma.com/community/file/1289233099485808902](https://www.figma.com/community/file/1289233099485808902)
+# Website from a figma template
+This website is an html + bootstrap implementation of the following free figma template: [https://www.figma.com/community/file/1289233099485808902](https://www.figma.com/community/file/1289233099485808902)
