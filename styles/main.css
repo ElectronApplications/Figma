@@ -1,9 +1,53 @@
+body {
+    background-color: white;
+}
+
 .startupland-header {
-    background-color: #FFFCF7;
+    background-color: #fffcf7;
     padding-top: 10px;
 }
 
 .startupland-header-container {
     padding-left: 2vw;
     padding-right: 2vw;
+}
+
+.startupland-support-section {
+    margin-top: 60px;
+}
+
+.startupland-support-title {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #02073e;
+}
+
+.startupland-support-body {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    line-height: 32px;
+    color: #343d48;
+}
+
+.startupland-card-white {
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 0px 15px 60px -30px #1e3f5a82;
+    transition: all 0.35s;
+}
+
+.startupland-card-white:hover {
+    box-shadow: 0px 15px 60px -20px #1e3f5a82;
+}
+
+.startupland-card-gray {
+    border-radius: 7px;
+    padding: 40px;
+    background-color: #f6f8fb;
+    transition: all 0.35s;
+}
+
+.startupland-card-gray:hover {
+    box-shadow: 0px 15px 60px -20px #1e3f5a82;
 }
