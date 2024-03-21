@@ -1,3 +1,9 @@
+/* TODO: css variables */
+/* TODO: more reusable classes */
+
+@import url(navbar.css);
+@import url(header-content.css);
+
 body {
     background-color: white;
 }
@@ -62,7 +68,7 @@ body {
     color: #0f2137;
 }
 
-.startupland-app-body {
+.startupland-premium-body {
     font-family: "DM Sans", sans-serif;
     font-size: 16px;
     line-height: 35px;
@@ -71,9 +77,23 @@ body {
     width: 85%;
 }
 
+.startupland-app-body {
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    line-height: 42px;
+    color: #02073e;
+    display: inline-block;
+    width: 90%;
+}
+
 @media (max-width: 992px) {
     .startupland-app-title {
         text-align: center;
+    }
+
+    .startupland-premium-body {
+        text-align: center;
+        width: 100%;
     }
 
     .startupland-app-body {
@@ -85,9 +105,17 @@ body {
 .startupland-app-card-title {
     font-family: "DM Sans", sans-serif;
     font-size: 16px;
+    font-weight: 600;
     color: #0f2137;
 }
 
 .startupland-card-app {
     padding: 30px;
+}
+
+.startupland-app-link {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3183ff;
 }
