@@ -6,6 +6,7 @@ body {
     background-color: var(--sl-color-background);
 }
 
+
 .sl-header {
     background-color: var(--sl-color-primary-background);
     padding-top: 10px;
@@ -21,13 +22,24 @@ body {
     padding-right: 2vw;
 }
 
+
 .sl-support-section {
     margin-top: 60px;
 }
 
+.sl-card.sl-card-support {
+    padding: 40px;
+}
+
+
 .sl-app-section {
     margin-top: 100px;
 }
+
+.sl-card.sl-card-app {
+    padding: 30px;
+}
+
 
 .sl-performance-section {
     background-color: var(--sl-color-secondary-background);
@@ -48,7 +60,7 @@ body {
     }
 
     .sl-progress-col {
-        width: 20vw;
+        width: 17vw;
     }
 }
 
@@ -75,4 +87,25 @@ body {
     height: 1px;
     background-color: var(--sl-color-contrast);
     opacity: 10%;
+}
+
+
+.sl-shop-section {
+    background-color: var(--sl-color-tertiary-background);
+    padding-top: 60px;
+    padding-bottom: 150px;
+}
+
+.sl-card.sl-card-shop-left {
+    padding-top: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 75px;
+}
+
+.sl-card.sl-card-shop-right {
+    padding-top: 65px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 90px;
 }

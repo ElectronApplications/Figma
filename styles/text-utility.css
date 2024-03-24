@@ -46,6 +46,11 @@
     color: var(--sl-color-link);
 }
 
+.sl-text-passive {
+    font-family: var(--sl-font-normal);
+    color: var(--sl-color-passive);
+}
+
 
 /* Text size */
 .sl-text-14 {
@@ -70,6 +75,18 @@
 
 .sl-text-20 {
     font-size: 20px;
+}
+
+.sl-text-22 {
+    font-size: 22px;
+}
+
+.sl-text-26 {
+    font-size: 26px;
+}
+
+.sl-text-30 {
+    font-size: 30px;
 }
 
 .sl-text-40 {
