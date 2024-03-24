@@ -1,0 +1,87 @@
+@import url(variables.css);
+
+/* Text font and color */
+.sl-text-brand {
+    font-family: var(--sl-font-brand);
+    color: var(--sl-color-brand);
+}
+
+.sl-text-primary {
+    font-family: var(--sl-font-normal);
+    color: var(--sl-color-primary);
+}
+
+.sl-text-primary.sl-text-hover:hover {
+    color: var(--sl-color-primary-hover);
+}
+
+.sl-text-secondary {
+    font-family: var(--sl-font-normal);
+    color: var(--sl-color-secondary);
+}
+
+.sl-text-tertiary {
+    font-family: var(--sl-font-normal);
+    color: var(--sl-color-tertiary);
+}
+
+.sl-text-muted {
+    font-family: var(--sl-font-normal);
+    color: var(--sl-color-muted);
+    opacity: 60%;
+}
+
+.sl-text-link {
+    font-family: var(--sl-font-normal);
+    color: var(--sl-color-link);
+}
+
+
+/* Text size */
+.sl-text-14 {
+    font-size: 14px;
+}
+
+.sl-text-15 {
+    font-size: 15px;
+}
+
+.sl-text-16 {
+    font-size: 16px;
+}
+
+.sl-text-17 {
+    font-size: 17px;
+}
+
+.sl-text-18 {
+    font-size: 18px;
+}
+
+.sl-text-20 {
+    font-size: 20px;
+}
+
+.sl-text-40 {
+    font-size: 40px;
+}
+
+.sl-text-60 {
+    font-size: 60px;
+}
+
+
+/* Line height */
+.sl-lh-42 {
+    line-height: 42px;
+}
+
+.sl-lh-60 {
+    line-height: 60px;
+}
+
+
+/* Text decorations */
+.sl-fw-600 {
+    font-weight: 600;
+}

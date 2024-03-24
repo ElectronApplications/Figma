@@ -1,55 +1,5 @@
 @import url(variables.css);
 
-/* Text font and color */
-.sl-text-brand {
-    font-family: var(--sl-font-brand);
-    color: var(--sl-color-brand);
-}
-
-.sl-text-primary {
-    font-family: var(--sl-font-primary);
-    color: var(--sl-color-primary);
-}
-
-.sl-text-primary.sl-text-hover:hover {
-    color: var(--sl-color-primary-hover);
-}
-
-.sl-text-secondary {
-    font-family: var(--sl-font-secondary);
-    color: var(--sl-color-secondary);
-}
-
-.sl-text-tertiary {
-    font-family: var(--sl-font-tertiary);
-    color: var(--sl-color-tertiary);
-}
-
-.sl-text-muted {
-    font-family: var(--sl-font-muted);
-    color: var(--sl-color-muted);
-}
-
-
-/* Text size */
-.sl-text-14 {
-    font-size: 14px;
-}
-
-.sl-text-16 {
-    font-size: 16px;
-}
-
-.sl-text-18 {
-    font-size: 18px;
-}
-
-
-/* Text decorations */
-.sl-fw-600 {
-    font-weight: 600;
-}
-
 /* Buttons */
 .sl-button {
     font-weight: bold;
@@ -102,4 +52,59 @@
     background-color: var(--sl-color-button-secondary) !important;
     color: var(--sl-color-button-text-secondary) !important;
     border-color: var(--sl-color-button-text-secondary) !important;
+}
+
+
+/* Text fields */
+.sl-textfield {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    border-radius: 5px;
+    border-color: transparent;
+    outline: none;
+    transition: all 150ms;
+}
+
+.sl-textfield.sl-textfield-light {
+    background-color: white;
+    box-shadow: 0px 16px 40px 0px #14483b1a;
+}
+
+.sl-textfield.sl-textfield-light::placeholder {
+    color: var(--sl-color-light-placeholder);
+    font-size: 16px;
+    opacity: 40%;
+}
+
+.sl-textfield.sl-textfield-light:focus {
+    box-shadow: 0px 16px 40px 8px #14483b1a;
+}
+
+
+/* Cards */
+.sl-card {
+    border-radius: 7px;
+    transition: all 0.35s;
+}
+
+.sl-card.sl-card-white {
+    background-color: white;
+    box-shadow: 0px 15px 60px -40px #1e3f5a82;
+}
+
+.sl-card.sl-card-gray {
+    background-color: #f6f8fb;
+}
+
+.sl-card.sl-card-hover:hover {
+    box-shadow: 0px 15px 60px -20px #1e3f5a82;
+}
+
+.sl-card.sl-card-support {
+    padding: 40px;
+}
+
+.sl-card.sl-card-app {
+    padding: 30px;
 }

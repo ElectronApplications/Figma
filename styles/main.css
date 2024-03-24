@@ -1,119 +1,30 @@
 @import url(variables.css);
-@import url(utility.css);
-@import url(header.css);
+@import url(text-utility.css);
+@import url(component-utility.css);
 
 body {
     background-color: var(--sl-color-background);
 }
 
-.startupland-header {
+.sl-header {
     background-color: var(--sl-color-header-background);
     padding-top: 10px;
 }
 
-.startupland-header-container {
+.sl-header-content {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.sl-header-container {
     padding-left: 2vw;
     padding-right: 2vw;
 }
 
-.startupland-support-section {
+.sl-support-section {
     margin-top: 60px;
 }
 
-.startupland-support-title {
-    font-family: "DM Sans", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: #02073e;
-}
-
-.startupland-card-body {
-    font-family: "DM Sans", sans-serif;
-    font-size: 15px;
-    line-height: 32px;
-    color: #343d48;
-}
-
-.startupland-card-white {
-    border-radius: 7px;
-    box-shadow: 0px 15px 60px -40px #1e3f5a82;
-    transition: all 0.35s;
-}
-
-.startupland-card-gray {
-    border-radius: 7px;
-    background-color: #f6f8fb;
-    transition: all 0.35s;
-}
-
-.startupland-card-hover:hover {
-    box-shadow: 0px 15px 60px -20px #1e3f5a82;
-}
-
-.startupland-card-support {
-    padding: 40px;
-}
-
-.startupland-app-section {
+.sl-app-section {
     margin-top: 100px;
-}
-
-.startupland-app-title {
-    font-family: "DM Sans", sans-serif;
-    font-size: 40px;
-    line-height: 60px;
-    font-weight: bold;
-    color: #0f2137;
-}
-
-.startupland-premium-body {
-    font-family: "DM Sans", sans-serif;
-    font-size: 16px;
-    line-height: 35px;
-    color: #0f2137;
-    display: inline-block;
-    width: 85%;
-}
-
-.startupland-app-body {
-    font-family: "DM Sans", sans-serif;
-    font-size: 17px;
-    line-height: 42px;
-    color: #02073e;
-    display: inline-block;
-    width: 90%;
-}
-
-@media (max-width: 992px) {
-    .startupland-app-title {
-        text-align: center;
-    }
-
-    .startupland-premium-body {
-        text-align: center;
-        width: 100%;
-    }
-
-    .startupland-app-body {
-        text-align: center;
-        width: 100%;
-    }
-}
-
-.startupland-app-card-title {
-    font-family: "DM Sans", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    color: #0f2137;
-}
-
-.startupland-card-app {
-    padding: 30px;
-}
-
-.startupland-app-link {
-    font-family: "DM Sans", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    color: #3183ff;
 }
