@@ -67,12 +67,12 @@
 }
 
 .sl-textfield.sl-textfield-light {
-    background-color: white;
+    background-color: var(--sl-color-textfield-light-background);
     box-shadow: 0px 16px 40px 0px #14483b1a;
 }
 
 .sl-textfield.sl-textfield-light::placeholder {
-    color: var(--sl-color-light-placeholder);
+    color: var(--sl-color-textfield-light-placeholder);
     font-size: 16px;
     opacity: 40%;
 }
@@ -89,12 +89,12 @@
 }
 
 .sl-card.sl-card-white {
-    background-color: white;
+    background-color: var(--sl-color-card-white-background);
     box-shadow: 0px 15px 60px -40px #1e3f5a82;
 }
 
 .sl-card.sl-card-gray {
-    background-color: #f6f8fb;
+    background-color: var(--sl-color-card-gray-background);
 }
 
 .sl-card.sl-card-hover:hover {

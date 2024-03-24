@@ -1,18 +1,29 @@
 :root, [data-bs-theme=light] {
     --sl-color-background: white;
-    --sl-color-header-background: #fffcf7;
+    --sl-color-primary-background: #fffcf7;
+    --sl-color-secondary-background: #353448;
+    --sl-color-tertiary-background: #f9fafc;
+    --sl-color-footer-background: #2b293e;
 
     --sl-color-button-primary: #ffc059;
     --sl-color-button-text-primary: white;
     --sl-color-button-secondary: #fff0d7;
     --sl-color-button-text-secondary: #e5a740;
 
-    --sl-color-light-placeholder: #02073e;
+    --sl-color-textfield-light-background: white;
+    --sl-color-textfield-light-placeholder: #02073e;
+    --sl-color-textfield-dark-background: #454457;
+    --sl-color-textfield-dark-placeholder: #dadadd;
+
+    --sl-color-card-white-background: white;
+    --sl-color-card-gray-background: #f6f8fb;
 
     --sl-color-brand: #0f2137;
     --sl-color-primary: #02073e;
     --sl-color-secondary: #343d48;
     --sl-color-tertiary: #0f2137;
+    --sl-color-active: #ffc059;
+    --sl-color-contrast: white;
     --sl-color-muted: #566272;
     --sl-color-link: #3183ff;
 

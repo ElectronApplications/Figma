@@ -25,6 +25,16 @@
     color: var(--sl-color-tertiary);
 }
 
+.sl-text-active {
+    font-family: var(--sl-font-normal);
+    color: var(--sl-color-active);
+}
+
+.sl-text-contrast {
+    font-family: var(--sl-font-normal);
+    color: var(--sl-color-contrast);
+}
+
 .sl-text-muted {
     font-family: var(--sl-font-normal);
     color: var(--sl-color-muted);
