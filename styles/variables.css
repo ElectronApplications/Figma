@@ -1,0 +1,23 @@
+:root, [data-bs-theme=light] {
+    --sl-color-background: white;
+    --sl-color-header-background: #fffcf7;
+
+    --sl-color-button-primary: #ffc059;
+    --sl-color-button-text-priamary: white;
+    --sl-color-button-secondary: #fff0d7;
+    --sl-color-button-text-secondary: #e5a740;
+
+    --sl-color-brand: #0f2137;
+    --sl-color-primary: #02073e;
+    --sl-color-secondary: #343d48;
+    --sl-color-tertiary: #0f2137;
+    --sl-color-muted: #566272;
+
+    --sl-color-primary-hover: #646687;
+
+    --sl-font-brand: "Poppins", sans-serif;
+    --sl-font-primary: "DM Sans", sans-serif;
+    --sl-font-secondary: "DM Sans", sans-serif;
+    --sl-font-tertiary: "DM Sans", sans-serif;
+    --sl-font-muted: "DM Sans", sans-serif;
+}

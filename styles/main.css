@@ -1,15 +1,13 @@
-/* TODO: css variables */
-/* TODO: more reusable classes */
-
-@import url(navbar.css);
-@import url(header-content.css);
+@import url(variables.css);
+@import url(utility.css);
+@import url(header.css);
 
 body {
-    background-color: white;
+    background-color: var(--sl-color-background);
 }
 
 .startupland-header {
-    background-color: #fffcf7;
+    background-color: var(--sl-color-header-background);
     padding-top: 10px;
 }
 

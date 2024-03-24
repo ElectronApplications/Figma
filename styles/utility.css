@@ -1,0 +1,105 @@
+@import url(variables.css);
+
+/* Text font and color */
+.sl-text-brand {
+    font-family: var(--sl-font-brand);
+    color: var(--sl-color-brand);
+}
+
+.sl-text-primary {
+    font-family: var(--sl-font-primary);
+    color: var(--sl-color-primary);
+}
+
+.sl-text-primary.sl-text-hover:hover {
+    color: var(--sl-color-primary-hover);
+}
+
+.sl-text-secondary {
+    font-family: var(--sl-font-secondary);
+    color: var(--sl-color-secondary);
+}
+
+.sl-text-tertiary {
+    font-family: var(--sl-font-tertiary);
+    color: var(--sl-color-tertiary);
+}
+
+.sl-text-muted {
+    font-family: var(--sl-font-muted);
+    color: var(--sl-color-muted);
+}
+
+
+/* Text size */
+.sl-text-14 {
+    font-size: 14px;
+}
+
+.sl-text-16 {
+    font-size: 16px;
+}
+
+.sl-text-18 {
+    font-size: 18px;
+}
+
+
+/* Text decorations */
+.sl-fw-600 {
+    font-weight: 600;
+}
+
+/* Buttons */
+.sl-button {
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.sl-button.sl-button-small {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.sl-button.sl-button-large {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.sl-button.sl-button-primary {
+    background-color: var(--sl-color-button-primary) !important;
+    color: var(--sl-color-button-text-primary) !important;
+}
+
+.sl-button.sl-button-primary:hover {
+    background-color: var(--sl-color-button-primary) !important;
+    color: var(--sl-color-button-text-primary) !important;
+    border-color: var(--sl-color-button-text-secondary) !important;
+}
+
+.sl-button.sl-button-primary:active {
+    background-color: var(--sl-color-button-primary) !important;
+    color: var(--sl-color-button-text-primary) !important;
+    border-color: var(--sl-color-button-text-secondary) !important;
+}
+
+.sl-button.sl-button-secondary {
+    background-color: var(--sl-color-button-secondary) !important;
+    color: var(--sl-color-button-text-secondary) !important;
+}
+
+.sl-button.sl-button-secondary:hover {
+    background-color: var(--sl-color-button-secondary) !important;
+    color: var(--sl-color-button-text-secondary) !important;
+    border-color: var(--sl-color-button-text-secondary) !important;
+}
+
+.sl-button.sl-button-secondary:active {
+    background-color: var(--sl-color-button-secondary) !important;
+    color: var(--sl-color-button-text-secondary) !important;
+    border-color: var(--sl-color-button-text-secondary) !important;
+}
