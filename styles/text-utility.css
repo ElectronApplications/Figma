@@ -6,9 +6,16 @@
     color: var(--sl-color-brand);
 }
 
+.sl-text-brand-passive {
+    font-family: var(--sl-font-brand);
+    color: var(--sl-color-brand-passive);
+    opacity: 80%;
+}
+
 .sl-text-primary {
     font-family: var(--sl-font-normal);
     color: var(--sl-color-primary);
+    transition: all 0.25s;
 }
 
 .sl-text-primary.sl-text-hover:hover {
@@ -33,6 +40,11 @@
 .sl-text-contrast {
     font-family: var(--sl-font-normal);
     color: var(--sl-color-contrast);
+    transition: all 0.25s;
+}
+
+.sl-text-contrast.sl-text-hover:hover {
+    color: var(--sl-color-contrast-hover);
 }
 
 .sl-text-muted {
@@ -87,6 +99,10 @@
 
 .sl-text-30 {
     font-size: 30px;
+}
+
+.sl-text-32 {
+    font-size: 32px;
 }
 
 .sl-text-40 {

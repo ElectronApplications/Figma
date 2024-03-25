@@ -81,6 +81,20 @@
     box-shadow: 0px 16px 40px 8px #14483b1a;
 }
 
+.sl-textfield.sl-textfield-dark {
+    background-color: var(--sl-color-textfield-dark-background);
+}
+
+.sl-textfield.sl-textfield-dark::placeholder {
+    color: var(--sl-color-textfield-dark-placeholder);
+    font-size: 16px;
+    opacity: 80%;
+}
+
+.sl-textfield.sl-textfield-dark:focus {
+    box-shadow: 0px 16px 40px 8px #14483b1a;
+}
+
 
 /* Cards */
 .sl-card {

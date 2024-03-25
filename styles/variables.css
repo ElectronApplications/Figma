@@ -13,12 +13,13 @@
     --sl-color-textfield-light-background: white;
     --sl-color-textfield-light-placeholder: #02073e;
     --sl-color-textfield-dark-background: #454457;
-    --sl-color-textfield-dark-placeholder: #dadadd;
+    --sl-color-textfield-dark-placeholder: white;
 
     --sl-color-card-white-background: white;
     --sl-color-card-gray-background: #f6f8fb;
 
     --sl-color-brand: #0f2137;
+    --sl-color-brand-passive: white;
     --sl-color-primary: #02073e;
     --sl-color-secondary: #343d48;
     --sl-color-tertiary: #0f2137;
@@ -29,6 +30,7 @@
     --sl-color-passive: #858b91;
 
     --sl-color-primary-hover: #646687;
+    --sl-color-contrast-hover: #858b91;
 
     --sl-font-brand: "Poppins", sans-serif;
     --sl-font-normal: "DM Sans", sans-serif;
